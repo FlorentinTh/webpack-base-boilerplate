@@ -1,0 +1,11 @@
+$color: rgb(221, 221, 221);
+
+body{
+    background-color: $color;
+    div#img{
+        height: 200px;
+        width: 200px;
+        background-image: url('../assets/logo.png');
+        transform: translateX(25%);
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "no-console": 0
+    },
+    "overrides": [
+        {
+            "files": [
+                "./src/*.js"
+            ],
+            "excludedFiles": "./dist/**/*"
+        }
+    ]
+}
